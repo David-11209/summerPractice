@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">project</string>
+    <string name="app_name">My_Homework_2</string>
+    <string name="title_home">Home</string>
+    <string name="profile">\n</string>
+    <string name="settings" />
+    <string name="messages" />
+    <string name="services" />
+    <string name="title_profile" />
+    <string name="title_messages" />
+    <string name="title_services" />
+    <string name="title_settings" />
+    <string name="Services">Services</string>
+    <string name="Messages">Messages</string>
+    <string name="Settings">Settings</string>
+    <string name="Profile">Profile</string>
+    <string name="developer_mode_button">developer mode</string>
 </resources>
