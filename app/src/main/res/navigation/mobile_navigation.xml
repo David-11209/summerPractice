@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.summerpractice.project.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.summerpractice.project.ui.profile.ProfileFragment"
+        android:label="@string/Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.summerpractice.project.ui.settings.SettingsFragment"
+        android:label="@string/Settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_navigation_settings_to_developerModeFragment"
+            app:destination="@id/developerModeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.summerpractice.project.ui.messages.MessagesFragment"
+        android:label="@string/Messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/navigation_services"
+        android:name="com.summerpractice.project.ui.services.ServicesFragment"
+        android:label="@string/Services"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/developerModeFragment"
+        android:name="com.summerpractice.project.ui.developerMode.DeveloperModeFragment"
+        android:label="fragment_developer_mode"
+        tools:layout="@layout/fragment_developer_mode" />
+</navigation>
