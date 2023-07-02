@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">project</string>
+    <string name="app_name">Homework1</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="growth">Growth</string>
+    <string name="weight">Weight</string>
+    <string name="age">Age</string>
 </resources>
